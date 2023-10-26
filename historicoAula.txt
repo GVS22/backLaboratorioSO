@@ -1,0 +1,47 @@
+   91  dir
+   92  clear
+   93  sudo docker compose --version
+   94  sudo docker compose -version
+   95  sudo docker compose version
+   96  clear
+   97  sudo mkdir siteLab
+   98  cd siteLab/
+   99  sudo nano site/index.html
+  100  dir
+  101  sudo mkdir site
+  102  cd site
+  103  sudo nano index.html
+  104  cd ..
+  105  dir
+  106  sudo nano docker-compose.yml
+  107  dir
+  108  ls -l
+  109  sudo docker compose up -d
+  110  sudo docker ps
+  111  clear
+  112  sudo systemctl status nginx
+  113  sudo systemctl stop nginx
+  114  sudo docker compose log
+  115  sudo docker compose -log
+  116  sudo docker compose logs
+  117  sudo docker compose down
+  118  dir
+  119  sudo nano docker-compose.yml 
+  120  sudo docker compose up -d
+  121  sudo docker compose logs
+  122  sudo nano docker-compose.yml 
+  123  sudo docker compose down
+  124  sudo docker compose up -d
+  125  sudo nano docker-compose.yml 
+  126  sudo systemctl start nginx
+  127  dir
+  128  sudo nano docker-compose.yml 
+  129  sudo history
+  130  history
+  131  history >> historicoAula.txt
+  132  sudo history >> historicoAula.txt
+  133  sudo history > historicoAula.txt
+  134  history >> sudo historicoAula.txt
+  135  history >> historicoAula.txt
+  136  cd ..
+  137  history >> historicoAula.txt
